@@ -52,7 +52,7 @@ img {
 /*--------------------------------
  見出し
 ---------------------------------*/
-.title {
+.name {
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
@@ -193,7 +193,7 @@ img {
   justify-content: center;
   height: 85vh;
   text-align: center;
-  background-image: url(https://github.com/Kasusu05/kasumi05/blob/main/lauren-mancke-sil2Hx4iupI-unsplash%20(1).jpg?raw=true);
+  background-image: url('../img/lauren-mancke-sil2Hx4iupI-unsplash\ \(1\).jpg');
   background-position: center;
   background-size: cover;
 }
@@ -203,50 +203,31 @@ img {
   padding: 0 40px;
 }
 
-.mv-title {
+.mv-name {
   
   font-size: 60px;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
-  opacity: 0; 	
-	bottom: -15px; 	
-	transition: 1s; 
-}
-.title{
-  opacity: 0; 	
-	bottom: -15px; 	
-	transition: 1s; 
 }
 
-.title.fadein{
-  opacity: 1;
-	bottom: 0;
-}
 
-/* スクロールした時に追加されるclass */
-.mv-title.fadein {
-	opacity: 1;
-	bottom: 0;
-}
-.mv-subtitle {
+
+
+
+.mv-subname {
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
   letter-spacing: .08em;
-  opacity: 0; 	
+
 	bottom: -15px; 	
-	transition: 2s; 
+
 }
 
 
-/* スクロールした時に追加されるclass */
-.mv-subtitle.fadein {
-	opacity: 1;
-	bottom: 0;
-}
 
 .mv-text {
   font-size: 16px;
